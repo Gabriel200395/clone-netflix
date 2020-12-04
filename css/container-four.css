@@ -8,6 +8,11 @@
   border-bottom: 8px solid #222;
 }
 
+.form-perguntas-frequentes {
+  display: flex;
+  align-items: center;
+}
+
 .titulo-perguntas {
   color: #fff;
   font-size: 3.125rem;
@@ -16,11 +21,11 @@
   font-weight: 500;
 }
 
-.paragrafo-series {
-  font-size: 1.625rem;
+.paragrafo-perguntas {
   font-weight: 400;
   color: #fff;
-  width: 500px;
+  margin-bottom: 20px;
+  font-size: 17px;
 }
 
 .imagem-series {
