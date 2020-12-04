@@ -1,10 +1,20 @@
+/*
+.flexbox{
+     display: flex;
+     flex-direction: column;  
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+*/
+
 .perguntar-frequentes {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: rgb(7, 7, 7);
-  height: 490px;
+  height: 720px;
   border-bottom: 8px solid #222;
 }
 
@@ -25,9 +35,52 @@
   font-weight: 400;
   color: #fff;
   margin-bottom: 20px;
+  margin-top: 20px;
   font-size: 17px;
 }
 
 .imagem-series {
   height: 300px;
+}
+
+.accordion {
+  background-color: #303030;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 60%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  transition: 0.4s;
+  margin-top: 10px;
+}
+
+.accordion:before {
+  content: "+";
+  float: right;
+}
+
+.active,
+.accordion:hover {
+  background-color: none;
+}
+
+.active:before {
+  content: "-";
+}
+
+.panel {
+  width: 60%;
+  display: none;
+  background-color: #303030;
+  overflow: hidden;
+  height: 77%;
+  color: #fff;
+  padding: 15px 0px 0px 0px;
+}
+
+.panel p {
+  text-align: center;
 }

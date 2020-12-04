@@ -105,6 +105,60 @@
       <div>
         <div class="perguntar-frequentes">
           <h1 class="titulo-perguntas">Perguntas Frequentes</h1>
+          <button class="accordion">O que é Netflix?</button>
+          <div class="panel">
+            <p>
+              A Netflix é um serviço de transmissão online que oferece uma ampla
+              variedade de séries, filmes e documentários premiados em milhares
+              de aparelhos conectados à internet. Você pode assistir a quantos
+              filmes e séries quiser, quando e onde quiser, sem comerciais –
+              tudo por um preço mensal bem acessível. Aqui você sempre encontra
+              novidades. A cada semana, adicionamos novas séries e filmes.
+            </p>
+          </div>
+
+          <button class="accordion">Quanto custa a Netflix?</button>
+          <div class="panel">
+            <p>
+              Assista à Netflix no seu celular, tablet, Smart TV, notebook ou
+              aparelho de streaming por uma taxa mensal única. Os planos variam
+              de R$21,90 a R$45,90 por mês. Sem contrato nem taxas extras.
+            </p>
+          </div>
+
+          <button class="accordion">Aonde posso asssitir?</button>
+          <div class="panel">
+            <p>
+              Assista onde quiser, o quanto quiser e em um número ilimitado de
+              aparelhos. Faça login com sua conta Netflix em netflix.com para
+              começar a assistir no computador ou em qualquer aparelho conectado
+              à Internet compatível com o aplicativo Netflix, como Smart TVs,
+              smartphones, tablets, aparelhos de streaming e videogames. Você
+              também pode baixar a sua série favorita com o aplicativo Netflix
+              para iOS, Android ou Windows 10. Use downloads para levar a
+              Netflix para onde quiser sem precisar de conexão com a Internet.
+              Leve a Netflix com você para qualquer lugar.
+            </p>
+          </div>
+          <button class="accordion">Como faço para cancelar?</button>
+          <div class="panel">
+            <p>
+              A Netflix é flexível. Não há contratos nem compromissos. Você pode
+              cancelar a sua conta na internet com apenas dois cliques. Não há
+              taxa de cancelamento – você pode começar ou encerrar a sua
+              assinatura a qualquer momento.
+            </p>
+          </div>
+
+          <button class="accordion">O que posso assitir na Netflix?</button>
+          <div class="panel">
+            <p>
+              A Netflix tem um grande catálogo de filmes, documentários, séries,
+              originais Netflix premiados e muito mais. Assista o quanto quiser,
+              quando quiser.
+            </p>
+          </div>
+
           <p class="paragrafo-perguntas">
             Pronto para assistir? Informe seu email para criar ou reiniciar sua
             assinatura.
@@ -116,5 +170,22 @@
         </div>
       </div>
     </section>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
   </body>
 </html>
