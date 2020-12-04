@@ -1,0 +1,43 @@
+.aproveite {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(7, 7, 7);
+  height: 490px;
+}
+
+.aproveite-titulo {
+  color: #fff;
+  font-size: 3.125rem;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  text-indent: -120px;
+}
+
+.aproveite-paragrafo {
+  color: #fff;
+  text-align: left;
+  font-size: 1.425rem;
+  font-weight: 400;
+  width: 500px;
+  margin: 0.75em 0 0.25em;
+}
+
+.aproveite-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imagem {
+  width: 556px;
+  margin-top: -100px;
+  position: relative;
+  z-index: 2;
+}
+
+.our-story-card-animation {
+  margin-top: -331px;
+  margin-left: 68px;
+}

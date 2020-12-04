@@ -9,14 +9,16 @@
   width: 100%;
   object-fit: fill;
   background-size: cover;
-  background-image: -webkit-linear-gradient(
-      bottom,
-      rgba(0, 0, 0, 0.8) 0,
-      rgba(0, 0, 0, 0) 60%,
-      rgba(0, 0, 0, 0.8) 100%,
-      rgba(0, 0, 0, 0.4)
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(0, 0, 0, 0.8)),
+      color-stop(60%, rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.8))
     ),
     url("../images/netflix.jpg");
+  border-bottom: 8px solid #222;
 }
 
 .conatiner-nav header {
@@ -26,7 +28,7 @@
 }
 
 .logo {
-  padding: 40px 70px;
+  padding: 20px 70px;
   font-size: 30px;
   text-transform: uppercase;
   color: #e50914;
@@ -97,5 +99,5 @@
 }
 
 .form {
-  padding: 19px 100px;
+  padding: 19px 150px;
 }
