@@ -1,75 +1,45 @@
 .footer {
+  background-color: rgb(7, 7, 7);
+  height: 375px;
+}
+
+.container-footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  background-color: rgb(7, 7, 7);
-  height: 320px;
 }
 
-.form-perguntas-frequentes {
-  display: flex;
-  align-items: center;
+.list ul {
+  color: #757575;
+  list-style: none;
+  margin: 0px 40px;
 }
 
-.titulo-perguntas {
-  color: #fff;
-  font-size: 3.125rem;
-  line-height: 1.1;
+.list li {
   margin-bottom: 20px;
-  font-weight: 500;
+  font-size: 12px;
 }
 
-.paragrafo-perguntas {
-  font-weight: 400;
-  color: #fff;
+.list-n li {
+  color: #757575;
+  list-style: none;
+  font-size: 12px;
+  margin: 0px 40px;
   margin-bottom: 20px;
-  margin-top: 20px;
-  font-size: 17px;
 }
 
-.imagem-series {
-  height: 300px;
+.list-n ul {
+  margin-top: 35px;
 }
 
-.accordion {
-  background-color: #303030;
-  color: #fff;
-  cursor: pointer;
-  padding: 18px;
-  width: 60%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 25px;
-  transition: 0.4s;
-  margin-top: 10px;
+.footer p {
+  color: #757575;
+  text-indent: 188px;
+  padding: 60px;
+  margin-bottom: -60px;
 }
 
-.accordion:before {
-  content: "+";
-  float: right;
-}
-
-.active,
-.accordion:hover {
-  background-color: none;
-}
-
-.active:before {
-  content: "-";
-}
-
-.panel {
-  width: 60%;
-  display: none;
-  background-color: #303030;
-  overflow: hidden;
-  height: 77%;
-  color: #fff;
-  padding: 15px 0px 0px 0px;
-}
-
-.panel p {
-  text-align: center;
+.netflix {
+  margin-top: -50px;
+  margin-left: 2px;
 }
