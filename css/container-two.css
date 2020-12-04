@@ -1,0 +1,28 @@
+.baixe-series {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(7, 7, 7);
+  height: 490px;
+  border-bottom: 8px solid #222;
+}
+
+.titulo-series {
+  color: #fff;
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  font-weight: 500;
+  width: 500px;
+}
+
+.paragrafo-series {
+  font-size: 1.625rem;
+  font-weight: 400;
+  color: #fff;
+  width: 500px;
+}
+
+.imagem-series {
+  height: 300px;
+}

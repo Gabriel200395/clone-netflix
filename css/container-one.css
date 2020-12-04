@@ -4,6 +4,7 @@
   align-items: center;
   background-color: rgb(7, 7, 7);
   height: 490px;
+  border-bottom: 8px solid #222;
 }
 
 .aproveite-titulo {
@@ -37,7 +38,7 @@
   z-index: 2;
 }
 
-.our-story-card-animation {
+.video {
   margin-top: -331px;
   margin-left: 68px;
 }

@@ -1,0 +1,35 @@
+.assistar-filmes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(7, 7, 7);
+  height: 490px;
+  border-bottom: 8px solid #222;
+}
+
+.titulo-filmes {
+  color: #fff;
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.paragrafo-filmes {
+  font-size: 1.425rem;
+  font-weight: 400;
+  color: #fff;
+  width: 450px;
+}
+
+.imagem-filmes {
+  height: 400px;
+  position: relative;
+  z-index: 2;
+  margin-top: -162px;
+}
+
+.video-filmes {
+  margin-top: -373px;
+  margin-left: 103px;
+}
