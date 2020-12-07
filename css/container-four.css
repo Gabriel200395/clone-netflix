@@ -14,7 +14,7 @@
   align-items: center;
   flex-direction: column;
   background-color: rgb(7, 7, 7);
-  height: 720px;
+  height: 770px;
   border-bottom: 8px solid #222;
 }
 
@@ -83,4 +83,58 @@
 
 .panel p {
   text-align: center;
+}
+
+.panel0 {
+  width: 60%;
+  display: none;
+  background-color: #303030;
+  overflow: hidden;
+  text-align: center;
+  height: 15%;
+  color: #fff;
+  padding: 15px 0px 0px 0px;
+}
+
+.panel1 {
+  width: 60%;
+  display: none;
+  background-color: #303030;
+  overflow: hidden;
+  text-align: center;
+  height: 10%;
+  color: #fff;
+  padding: 15px 0px 0px 0px;
+}
+
+.panel2 {
+  width: 60%;
+  display: none;
+  background-color: #303030;
+  overflow: hidden;
+  text-align: center;
+  height: 17%;
+  color: #fff;
+  padding: 15px 0px 0px 0px;
+}
+.panel3 {
+  width: 60%;
+  display: none;
+  background-color: #303030;
+  overflow: hidden;
+  text-align: center;
+  height: 10%;
+  color: #fff;
+  padding: 15px 0px 0px 0px;
+}
+
+.panel4 {
+  width: 60%;
+  display: none;
+  background-color: #303030;
+  overflow: hidden;
+  text-align: center;
+  height: 10%;
+  color: #fff;
+  padding: 15px 0px 0px 0px;
 }
